@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{59CD2893-F070-46AA-9B7C-10A3927044F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{BEEE0BF2-6884-436F-BC33-E7F614D67C60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Query", "Query", "{679F288A-F8DE-48F5-8C71-71106F058489}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopTI.Product.Common", "EShopTechImplementation\Product\EShopTI.Product.Common\EShopTI.Product.Common.csproj", "{8FA8C34C-6916-4EE1-A580-44A6D9F7F544}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopTI.Product.Command.Core", "EShopTechImplementation\Product\Command\EShopTI.Product.Command.Core\EShopTI.Product.Command.Core.csproj", "{AC3D1CFC-140B-4B96-9D43-D2B76333CC85}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopTI.Product.Command.Infrastructure", "EShopTechImplementation\Product\Command\EShopTI.Product.Command.Infrastructure\EShopTI.Product.Command.Infrastructure.csproj", "{5F8C91BD-6983-4E05-B3E3-CB27875A22E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopTI.Product.Command.Api", "EShopTechImplementation\Product\Command\EShopTI.Product.Command.Api\EShopTI.Product.Command.Api.csproj", "{13647BAD-5E24-4720-9D73-1FC1F49D80CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopTI.Product.Query.Core", "EShopTechImplementation\Product\Query\EShopTI.Product.Query.Core\EShopTI.Product.Query.Core.csproj", "{CD6116A6-CBA5-4546-887B-9C1AD742CD62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopTI.Product.Query.Infrastructure", "EShopTechImplementation\Product\Query\EShopTI.Product.Query.Infrastructure\EShopTI.Product.Query.Infrastructure.csproj", "{08AA8D78-D917-47D2-8249-4623D78D7E6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopTI.Product.Query.Api", "EShopTechImplementation\Product\Query\EShopTI.Product.Query.Api\EShopTI.Product.Query.Api.csproj", "{03B41C4F-D91E-4349-BC82-58B1611A9269}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FA8C34C-6916-4EE1-A580-44A6D9F7F544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA8C34C-6916-4EE1-A580-44A6D9F7F544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA8C34C-6916-4EE1-A580-44A6D9F7F544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA8C34C-6916-4EE1-A580-44A6D9F7F544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3D1CFC-140B-4B96-9D43-D2B76333CC85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3D1CFC-140B-4B96-9D43-D2B76333CC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3D1CFC-140B-4B96-9D43-D2B76333CC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3D1CFC-140B-4B96-9D43-D2B76333CC85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F8C91BD-6983-4E05-B3E3-CB27875A22E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8C91BD-6983-4E05-B3E3-CB27875A22E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8C91BD-6983-4E05-B3E3-CB27875A22E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8C91BD-6983-4E05-B3E3-CB27875A22E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13647BAD-5E24-4720-9D73-1FC1F49D80CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13647BAD-5E24-4720-9D73-1FC1F49D80CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13647BAD-5E24-4720-9D73-1FC1F49D80CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13647BAD-5E24-4720-9D73-1FC1F49D80CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD6116A6-CBA5-4546-887B-9C1AD742CD62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6116A6-CBA5-4546-887B-9C1AD742CD62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6116A6-CBA5-4546-887B-9C1AD742CD62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6116A6-CBA5-4546-887B-9C1AD742CD62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08AA8D78-D917-47D2-8249-4623D78D7E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08AA8D78-D917-47D2-8249-4623D78D7E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08AA8D78-D917-47D2-8249-4623D78D7E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08AA8D78-D917-47D2-8249-4623D78D7E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B41C4F-D91E-4349-BC82-58B1611A9269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B41C4F-D91E-4349-BC82-58B1611A9269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B41C4F-D91E-4349-BC82-58B1611A9269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B41C4F-D91E-4349-BC82-58B1611A9269}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BEEE0BF2-6884-436F-BC33-E7F614D67C60} = {59CD2893-F070-46AA-9B7C-10A3927044F1}
+		{679F288A-F8DE-48F5-8C71-71106F058489} = {59CD2893-F070-46AA-9B7C-10A3927044F1}
+		{8FA8C34C-6916-4EE1-A580-44A6D9F7F544} = {59CD2893-F070-46AA-9B7C-10A3927044F1}
+		{AC3D1CFC-140B-4B96-9D43-D2B76333CC85} = {BEEE0BF2-6884-436F-BC33-E7F614D67C60}
+		{5F8C91BD-6983-4E05-B3E3-CB27875A22E8} = {BEEE0BF2-6884-436F-BC33-E7F614D67C60}
+		{13647BAD-5E24-4720-9D73-1FC1F49D80CF} = {BEEE0BF2-6884-436F-BC33-E7F614D67C60}
+		{CD6116A6-CBA5-4546-887B-9C1AD742CD62} = {679F288A-F8DE-48F5-8C71-71106F058489}
+		{08AA8D78-D917-47D2-8249-4623D78D7E6A} = {679F288A-F8DE-48F5-8C71-71106F058489}
+		{03B41C4F-D91E-4349-BC82-58B1611A9269} = {679F288A-F8DE-48F5-8C71-71106F058489}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F71E815B-8144-4913-A1F2-495AECA37E1A}
+	EndGlobalSection
+EndGlobal
