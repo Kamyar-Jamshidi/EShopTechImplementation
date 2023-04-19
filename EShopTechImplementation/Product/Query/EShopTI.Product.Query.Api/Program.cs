@@ -33,7 +33,7 @@ builder.Services.AddHostedService<MessageBusSubscriber>();
 builder.Services.AddDbContext<ProductQueryDbContext>(options =>
 {
     options.UseNpgsql(builder.Configuration.GetConnectionString("ProductQueryDB"));
-    options.UseQueryTrackingBehavior(QueryTrackingBehavior.);
+    options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
     options.EnableDetailedErrors();
     options.EnableSensitiveDataLogging();
 });
